@@ -1,0 +1,266 @@
+/********** Import Google Fonts ********************/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/********* Global css ***********/
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.btn{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    padding: 1.2rem 2.4rem;
+    border-radius: 3.2rem;
+    background: #fb8e49;
+    display: inline-block;
+}
+
+.btn:hover{
+    background: #f64e2f;
+}
+
+/************* Highlight css *********/
+
+.highlight{
+    display: flex;
+    padding: 10rem 0 0 2rem;
+}
+
+.highlight-left{
+    padding-top: 8rem;
+}
+
+.highlight-left-heading{
+    font-size: 5rem;
+    text-transform: capitalize;
+    color: #575757;
+    font-weight: 600;
+}
+
+
+
+.highlight-left-heading-color {
+  color: #fb934a;
+}
+
+
+.highlight-left-text {
+  font-size: 2.5rem;
+  color: #828282;
+  font-weight: 400;
+  width: 80%;
+}
+
+.highlight-right-image {
+  width: 100%;
+}
+
+.about{
+    display: flex;
+    background-image: url("images/shapes/6.png");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: left;
+    padding: 5rem 15rem 0 15rem;
+    width: 100%;
+}
+
+.about-left-image {
+  width: 30rem;
+}
+
+
+.about-right {
+  padding: 10rem 0 0 20rem;
+}
+
+
+.about-right-heading {
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  color: #828282;
+  font-weight: 600;
+}
+
+.about-right-text {
+  font-size: 2rem;
+  color: #575757;
+  font-weight: 400;
+  width: 80%;
+}
+
+
+
+/**********************/
+
+.blog-header {
+  padding-top: 5rem;
+}
+.blog-header-heading {
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  color: #575757;
+  font-weight: 600;
+  text-align: center;
+}
+.blog-header-text {
+  font-size: 2rem;
+  color: #828282;
+  font-weight: 400;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+.blog-header {
+  padding-top: 5rem;
+}
+
+
+.blog-header-heading {
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  color: #575757;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+.blog-header-text {
+  font-size: 2rem;
+  color: #828282;
+  font-weight: 400;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.blog-box {
+  display: flex;
+  padding: 5rem 7rem 0 7rem;
+}
+
+.blog-box-items {
+  width: 33%; 
+  border-radius: 2.5rem;
+  padding: 2rem;
+}
+
+
+.blog-box-items:not(:last-child) {
+  margin-right: 7rem;
+}
+
+
+.blog-box-items-img {
+  width: 100%;
+}
+
+.blog-box-items-heading {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  color: black;
+  font-weight: 600;
+}
+
+
+.blog-box-items-text {
+  font-size: 1.6rem;
+  color: black;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.newsletter {
+  margin: 10rem 0 5rem 7rem;
+  display: flex;
+  border-radius: 1.5rem;
+}
+.newsletter-item {
+  width: 33%;
+  display: grid;
+  justify-content: center;
+  padding: 2rem 3rem;
+}
+
+.newsletter-item-heading {
+  font-size: 4rem;
+  text-transform: capitalize;
+  color: black;
+  font-weight: 700;
+}
+.newsletter-item-text {
+  font-size: 1.4rem;
+  color: #575757;
+  font-weight: 500;
+}
+
+
+
+
+
+.footer {
+  background-color: #0b0d17;
+  padding-top: 5rem;
+}
+
+.footer-heading {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  color: #5b5b5b;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+
+.footer-heading-color-text {
+  color: #fb994c;
+}
+
+.footer-text {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.footer-copyright {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
